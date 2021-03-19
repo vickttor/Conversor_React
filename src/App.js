@@ -39,7 +39,7 @@ function App() {
       <div className="footer">
         <img src={github} className="criador" alt="criador" />
         <a
-          href="https://github.com/VictorSilva15"
+          href="https://github.com/VictorSilva15/Conversor_React"
           rel="noreferrer"
           target="_blank"
         >
