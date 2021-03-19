@@ -34,19 +34,19 @@ export default class Conversor extends Component {
     } catch {
       alert("[ERRO] Tente Novamente");
     }
-    if (this.props.moedaB == "BRL") {
+    if (this.props.moedaB === "BRL") {
       this.signal = "R$";
     }
-    if (this.props.moedaB == "USD") {
+    if (this.props.moedaB === "USD") {
       this.signal = "$";
     }
-    if (this.props.moedaB == "CAD") {
+    if (this.props.moedaB === "CAD") {
       this.signal = "$";
     }
-    if (this.props.moedaB == "JPY") {
+    if (this.props.moedaB === "JPY") {
       this.signal = "¥";
     }
-    if (this.props.moedaB == "EUR") {
+    if (this.props.moedaB === "EUR") {
       this.signal = "€";
     }
   }
