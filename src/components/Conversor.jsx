@@ -24,15 +24,19 @@ export default class Conversor extends Component {
       resolve = await resolve.json();
       let cotacao = resolve[de_para];
       this.state.moedaA_valor = this.state.moedaA_valor.replace(",", ".");
-      let moedaB_valor = parseFloat(this.state.moedaA_valor * cotacao).toFixed(
-        2
-      );
-      this.setState({ moedaB_valor });
+      if (this.state.moedaA_valor === "") {
+        alert("[ERRO] Tente novamente!");
+      } else {
+        let moedaB_valor = parseFloat(
+          this.state.moedaA_valor * cotacao
+        ).toFixed(2);
+        this.setState({ moedaB_valor });
+      }
     };
     try {
       getValue();
-    } catch {
-      alert("[ERRO] Tente Novamente");
+    } catch (err) {
+      alert(err);
     }
     if (this.props.moedaB === "BRL") {
       this.signal = "R$";
