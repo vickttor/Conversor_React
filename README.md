@@ -3,9 +3,10 @@
 <p>Esse Conversor de moedas foi escrito em React.JS com *auxílio* (não cópia) do <a href="https://youtu.be/tbLziJchz48" alt="React JS - Criando um App do Zero - Programador Br">vídeo</a> de React.JS do Programador BR. A obtenção dos valores das moedas atuais foi feita através da API Free.Currency disponibilizada <a href="https://free.currencyconverterapi.com/" alt="Link da API Free.Converter">aqui</a>.
 </p><h3><a href="https://pt-br.reactjs.org/">🔗 React</a></h3><p >🚀 lib para construir interfaces do usuário com componentes reutilizáveis.</p>
 
-<a href="https://github.com/VictorSilva15/Conversor_React/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/VictorSilva15/Conversor_React"></a>
-<a href="https://github.com/VictorSilva15/Conversor_React/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/VictorSilva15/Conversor_React"></a>
-<a href="https://github.com/VictorSilva15/Conversor_React"><img alt="GitHub license" src="https://img.shields.io/github/license/VictorSilva15/Conversor_React"></a>
+<a href="https://github.com/VictorSilva15/Conversor_React/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/VictorSilva15/Conversor_React?style=for-the-badge"></a>
+<a href="https://github.com/VictorSilva15/Conversor_React/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/VictorSilva15/Conversor_React?style=for-the-badge"></a>
+<a href="https://github.com/VictorSilva15/Conversor_React"><img alt="GitHub license" src="https://img.shields.io/github/license/VictorSilva15/Conversor_React?logo=MIT&style=for-the-badge"></a>
+<a href="https://github.com/VictorSilva15/Conversor_React/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/VictorSilva15/Conversor_React?style=social"></a>
 
 <h2> Status do Projeto</h2>
 <h4> React Select 🚀 Finzalizado  👍 </h4>
@@ -90,14 +91,28 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [The Free Currency Converter API](https://free.currencyconverterapi.com/)
 
-### Autor
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+   > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
 ---
+
+### Autor
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/70340221?v=4" width="100px;" alt="Victor"/>
  <sub><b>Victor Hugo</b></sub>🚀
 
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
 Feito com ❤️ por Victor Hugo da Silva 👋🏽 Entre em contato!
+
+---
 
 [![Linkedin Badge](https://img.shields.io/badge/-Victor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/victor-silva-9485021b2/)
 [![Gmail Badge](https://img.shields.io/badge/-victor470hugo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:victor470hugo@gmail.com)
